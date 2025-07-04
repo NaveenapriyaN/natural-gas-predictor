@@ -28,7 +28,7 @@ model = LinearRegression()
 model.fit(X, y)
 
 # Streamlit UI
-st.title("🛢️ Natural Gas Price Predictor")
+st.title("📊 Natural Gas Forecasting App (ML Powered)")
 
 st.write("### 📈 Historical Natural Gas Prices")
 st.line_chart(df.set_index('Date')['Price'])
